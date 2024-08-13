@@ -17,22 +17,6 @@ body {
 	overflow-y: hidden;
 }
 
-a {
-	text-decoration: none;
-	&:link {
-		@include theme(color, $color-primary, $color-tan);
-	}
-	&:visited {
-		color: $color-success;
-	}
-	&:hover {
-		@include theme(color, $color-dark, $color-light);
-	}
-	&:active {
-		color: $color-primary;
-	}
-}
-
 .icecream {
 	display: flex;
 	flex-direction: column-reverse;
